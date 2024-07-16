@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 0; /* Adjusted padding to make header smaller */
+}
+
+.title-box {
+    border: 2px solid white;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.scarlet-text {
+    color: #FF2400; /* Scarlet color */
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 800px;
+    padding: 0 10px; /* Added padding */
+    margin-top: 10px; /* Added margin to prevent overlap */
+    align-items: baseline; /* Align items to baseline for better alignment */
+}
+
+.test-taker, .timer, .difficulty {
+    font-size: 16px;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0; /* Adjusted padding */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 2px; /* Further reduced gap between fields */
+    width: 300px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, select, button {
+    padding: 2px; /* Further reduced padding */
+    font-size: 16px;
+    margin: 0; /* Further reduced margin */
+}
+
+button {
+    background-color: white; /* Background color to white */
+    color: #007bff; /* Text color to blue */
+    border: 2px solid #007bff; /* Blue border */
+    cursor: pointer;
+    padding: 10px 20px; /* Adjust padding for better look */
+}
+
+button:hover {
+    background-color: #007bff; /* Change background to blue on hover */
+    color: white; /* Change text color to white on hover */
+}
+
+.question-container {
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 20px;
+    background-color: #f9f9f9;
+}
+
+.question-box {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+#options-container {
+    margin-top: 20px;
+    padding-left: 40px; /* Increase padding to indent options */
+}
+
+#options-container label {
+    font-weight: normal; /* Ensure options text is not bold */
+}
+
+#feedback-container {
+    margin-top: 20px;
+    display: none;
+    padding-left: 20px; /* Align explanation with numbering */
+}
+
+button#submit-btn {
+    margin-top: 20px; /* Add spacing below the options */
+    margin-left: 40px; /* Align submit button with options */
+}
+
+button#next-btn {
+    position: absolute;
+    right: 20px; /* Position in the lower right corner */
+    bottom: 20px; /* Position in the lower right corner */
+    padding: 10px 20px; /* Adjust padding for better look */
+    border: 2px solid #007bff; /* Blue border */
+    background-color: white; /* Background color to white */
+    color: #007bff; /* Text color to blue */
+}
+
+button#next-btn:hover {
+    background-color: #007bff; /* Change background to blue on hover */
+    color: white; /* Change text color to white on hover */
+    border-color: #004494; /* Darken border on hover */
+}
